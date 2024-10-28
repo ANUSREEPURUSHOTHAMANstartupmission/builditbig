@@ -1,0 +1,111 @@
+---
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="modinatheme">
+    <!-- ======== Page title ============ -->
+    <title>Build It Big for the Billions - Programme</title>
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="/favicon.png">
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Icon css plugins -->
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!--  owl carosuel css plugins -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- metis menu css file -->
+    <link rel="stylesheet" href="assets/css/metismenu.css">
+    <!--  owl theme css plugins -->
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--  main style css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- template main style css file -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="body-wrapper">    
+	<Navbar></Navbar>
+		<slot />
+		<footer class="footer-4 footer-wrap bg-cover"  id="contact">
+			<div class="footer-widgets">            
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-md-6 col-xl-3 col-12 pr-xl-4 items-center justify-center">
+							<div class="single-footer-wid site_footer_widget items-center flex flex-col justify-center">
+								<a href="/">
+									<img src="/img/logo-white.svg" class=" " alt="">
+								</a>
+								<div class="social-link  mt-10 items-center justify-center flex">
+									<a href="https://www.facebook.com/keralastartupmission" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									<a href="https://x.com/startup_mission" target="_blank"><i class="fab fa-twitter"></i></a>
+								
+								</div>
+							</div>
+						</div> <!-- /.col-lg-3 - single-footer-wid -->
+						<div class="col-md-6 col-xl-2 col-12">                        
+							
+						</div> <!-- /.col-lg-3 - single-footer-wid -->
+						<div class="col-md-6 col-xl-2 col-12">                        
+							
+						</div> <!-- /.col-lg-3 - single-footer-wid -->
+						<div class="col-md-6 col-xl-3 col-12 items-center justify-center flex flex-col text-white">
+							<div class="single-footer-wid recent_post_widget items-center text-white justify-center flex flex-col">
+								<p class=" text-white items-center justify-center flex flex-col text-center">
+									G3B, Thejaswini, Technopark Rd, Technopark Campus, Karyavattom, Thiruvananthapuram, Kerala 695581
+								</p>
+							</div>
+						</div> <!-- /.col-lg-3 - single-footer-wid -->
+					</div>
+				</div>
+			</div>
+	
+			<div class="footer-bottom pt-0">
+				<div class="container text-center">
+					<div class="footer-bottom-content text-white">
+						<p>&copy; 2024 <a href="index.html">Build It Big for the Billions Programme</a>. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	
+		<!--  ALl JS Plugins
+		====================================== -->
+		<script src="assets/js/jquery.min.js" is:inline></script>
+		<script src="assets/js/modernizr.min.js" is:inline></script>
+		<script src="assets/js/jquery.easing.js" is:inline></script>
+		<script src="assets/js/popper.min.js" is:inline></script>
+		<script src="assets/js/bootstrap.min.js" is:inline></script>
+		<script src="assets/js/isotope.pkgd.min.js" is:inline></script>
+		<script src="assets/js/imageload.min.js" is:inline></script>
+		<script src="assets/js/scrollUp.min.js" is:inline></script>
+		<script src="assets/js/owl.carousel.min.js" is:inline></script>
+		<script src="assets/js/magnific-popup.min.js" is:inline></script>
+		<script src="assets/js/counterup.min.js" is:inline></script>
+		<script src="assets/js/wow.min.js" is:inline></script>
+		<script src="assets/js/metismenu.js" is:inline></script>
+		<script src="assets/js/timeline.min.js" is:inline></script>
+		<script src="assets/js/ajax-mail.js" is:inline></script>
+		<script src="assets/js/active.js" is:inline></script>
+	</body>
+	
+	</html>
